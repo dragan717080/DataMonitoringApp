@@ -26,7 +26,7 @@ const NavbarMenuItem: FC<NavbarMenuItemProps> = ({ ComponentToRender, index }) =
   }
 
   const navbarPortalStyling = getNavbarPortalStyling();
-  console.log('navbarPortalStyling', navbarPortalStyling)
+  //console.log('navbarPortalStyling', navbarPortalStyling)
 
   return (
     <div ref={navbarMenuItemRef} className="relative">

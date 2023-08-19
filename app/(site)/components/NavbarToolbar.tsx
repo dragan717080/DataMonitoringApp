@@ -13,7 +13,7 @@ const NavbarToolbar: FC = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative z-40">
       <div
         className="parent-container bg-gray-200 p-4 rounded-md"
         onMouseEnter={handleMouseEnter}
