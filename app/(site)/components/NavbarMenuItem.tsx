@@ -27,6 +27,8 @@ const NavbarMenuItem: FC<NavbarMenuItemProps> = ({ ComponentToRender, index }) =
 
   const navbarPortalStyling = getNavbarPortalStyling();
   //console.log('navbarPortalStyling', navbarPortalStyling)
+  if (!ComponentToRender.displayName) 
+    ComponentToRender.displayName = 'Add display name to this component';
 
   return (
     <div ref={navbarMenuItemRef} className="relative">
@@ -42,7 +44,7 @@ const NavbarMenuItem: FC<NavbarMenuItemProps> = ({ ComponentToRender, index }) =
         }}
       >
         <div className="group row-v space-x-1 hover:text-red-400">
-          <h2 className='font-semibold'>{ComponentToRender.name.split("Toolbar")[0]}</h2>
+          <h2 className='font-semibold'>{ComponentToRender.displayName.split("Toolbar")[0]}</h2>
           <div className="w-4 h-4 transform transition-transform duration-300 group-hover:rotate-180 group-hover:text-red-400">
             <ArrowIcon />
           </div>

@@ -1,9 +1,11 @@
 import { FC } from 'react';
 
-const SolutionsToolbar: FC = () => {
+const ResourcesToolbar: FC = () => {
   return (
-    <div>SolutionsToolbar</div>
+    <div>ResourcesToolbar</div>
   )
 }
 
-export default SolutionsToolbar;
+ResourcesToolbar.displayName = 'ResourcesToolbar';
+
+export default ResourcesToolbar;

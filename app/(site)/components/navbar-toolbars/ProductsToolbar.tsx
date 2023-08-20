@@ -6,4 +6,6 @@ const ProductsToolbar: FC = () => {
   )
 }
 
+ProductsToolbar.displayName = 'ProductsToolbar';
+
 export default ProductsToolbar;
