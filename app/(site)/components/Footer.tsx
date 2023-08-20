@@ -4,9 +4,14 @@ import { StringObject } from '@/app/interfaces/types';
 
 const Footer: FC = () => {
   return (
-    <footer className='bg-gray-200 py-8 px-7 md:px-10'>
+    <footer className='bg-gray-600 py-8 px-7 md:px-10'>
       <div className='col-h space-y-4'>
-        <p>Website made by Dragan</p>
+        <div className="row space-x-4 text-white semibold">
+          {['Privacy', 'Sitemap', 'Languages & Frameworks', 'Terms of Use']
+            .map((item: string, index: number) => (
+              <div className='hover:text-red-400 pointer' key={index}>{item}</div>
+            ))}
+        </div>
         <div className="row-h space-x-4">
           {Object.keys(socialsSvgPaths).map((socialIcon: keyof typeof socialsSvgPaths, index: number) => (
             <svg

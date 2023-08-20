@@ -14,7 +14,7 @@ const NavbarPortal: FC<RenderProp> = ({ children }) => {
   }, []);
 
   return (mounted && ref.current) ? 
-    createPortal(<div className='rounded-lg'>{children}</div>, ref.current) : 
+    createPortal(<div className='rounded-lg bg-white text-red-50 z-50'>{children}</div>, ref.current) : 
     null
 };
 

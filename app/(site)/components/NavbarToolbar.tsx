@@ -22,7 +22,6 @@ const NavbarToolbar: FC = () => {
         Hover over me!
         {isHovered && (
           <div className="toolbar absolute bg-white border p-2 shadow-md">
-            {/* Your toolbar content here */}
             <button className="mr-2">Option 1</button>
             <button className="mr-2">Option 2</button>
             <button>Option 3</button>
