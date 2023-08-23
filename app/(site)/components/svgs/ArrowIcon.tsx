@@ -1,7 +1,7 @@
 const ArrowIcon = () => {
   return (
     <svg
-      className="w-4 h-4 transform transition-transform duration-300 hover:rotate-180 hover:text-red-400"
+      className="w-4 h-4 transform transition-transform duration-300 hover:rotate-180"
       viewBox="0 0 20 20"
       fill="currentColor"
     >
