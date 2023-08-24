@@ -224,3 +224,19 @@ body {
     top: 228px;
     left: 786px;
 }
+
+.circle-item-toolbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+/* .circle-item-1:hover .circle-item-toolbar {
+    display: block;
+} */
