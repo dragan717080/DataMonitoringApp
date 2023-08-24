@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'palette.css';
 
 html {
     overflow-x: hidden;
@@ -8,6 +9,7 @@ html {
 
 body {
     font-family: 'Asap', sans-serif;
+    /* color: var(--font); */
 }
 
 .row {
@@ -227,16 +229,14 @@ body {
 
 .circle-item-toolbar {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 15%;
     background-color: white;
     padding: 8px;
     border: 1px solid #ccc;
+    transform: translateY(-29px);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
 
-/* .circle-item-1:hover .circle-item-toolbar {
+.circle-item:hover .circle-item-toolbar {
     display: block;
-} */
+}

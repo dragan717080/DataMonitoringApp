@@ -9,11 +9,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-    }
+      colors: {
+        font: '#030753',
+        darkBlue: '#163E6D',
+        blue: '#287EB6',
+        lightBlue: '#54BBEB',
+        lightOrange: '#F27C38',
+        darkOrange: '#D94B2B',
+        light: '#EEECE8',
+        sandGrey: '#CEC8BD',
+        black: '#202124',
+      },
+    },
   },
   plugins: [
     require('./named-colors'),
-    require('@tailwindcss/forms')({strategy: 'class'}),
+    require('@tailwindcss/forms')({ strategy: 'class' }),
     require('tailwind-scrollbar-hide')
   ]
 }

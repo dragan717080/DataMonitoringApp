@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <Provider store={store}>
       <Header />
-      <div className="flex-1 col-v shadow-md">
+      <div className="flex-1 col-v shadow-md bg-light">
         <section className="col-h min-h-screen justify-between min-w-[100%]">
           <div className='relative'>
             <div id="navbar-portal-root"></div>
             <div id="__next"></div>
           </div>
         </section>
-        <main className='px-12 min-h-[45rem]'>
+        <main className='px-12 min-h-[45rem] bg-light'>
           <div className="absolute top-20 left-0">
             <Banner />
             <div className="mt-10 px-[8rem]">
