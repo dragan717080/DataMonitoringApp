@@ -181,18 +181,16 @@ body {
     display: inline-block;
     position: relative;
     transition: border 1s ease-out;
-  }
-  
-  .aurora-container img {
+}
+
+.aurora-container img {
 
     transition: border 0.5s ease-out;
-  }
-  
-  .aurora-container:hover img {
+}
 
-  }
-  
-  .aurora-container::before {
+.aurora-container:hover img {}
+
+.aurora-container::before {
     content: "";
     position: absolute;
     top: -4px;
@@ -202,11 +200,11 @@ body {
     border: 2px solid transparent;
     border-radius: 50%;
     transition: border 0.5s ease-out;
-  }
-  
-  .aurora-container:hover::before {
+}
+
+.aurora-container:hover::before {
     border: 2px solid red;
-  }
+}
 
 .marker {
     width: 3px;
@@ -240,32 +238,33 @@ body {
 }
 
 .aurora-container {
-    height: 5em;
-    width: 5em;
+    height: 7rem;
+    width: 7rem;
     position: absolute;
     margin: auto;
-    left: 0;
-    right: 0;
     top: 28px;
     bottom: 0;
     border-radius: 50%;
     overflow: hidden;
     animation: spin 8s infinite linear;
-  }
-  @keyframes spin {
+}
+
+@keyframes spin {
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  .aurora-container:before {
+}
+
+.aurora-container:before {
     position: absolute;
     content: "";
     height: 100%;
     width: 100%;
     border-radius: 50%;
     backdrop-filter: blur(2.1em);
-  }
-  .aurora-container:after {
+}
+
+.aurora-container:after {
     position: absolute;
     content: "";
     height: 68%;
@@ -274,19 +273,22 @@ body {
     top: 16%;
     left: 16%;
     border-radius: 50%;
-  }
-  .aurora-container div {
+}
+
+.aurora-container div {
     position: absolute;
     border-radius: 50%;
     z-index: -1;
     animation: scale-up infinite;
-  }
-  @keyframes scale-up {
+}
+
+@keyframes scale-up {
     50% {
-      transform: scale(1.8);
+        transform: scale(1.8);
     }
-  }
-  .aurora-container div:nth-child(1) {
+}
+
+.aurora-container div:nth-child(1) {
     height: 90%;
     width: 100%;
     background-color: #ff057c;
@@ -294,8 +296,9 @@ body {
     top: -5%;
     animation-duration: 2s;
     animation-delay: 3s;
-  }
-  .aurora-container div:nth-child(2) {
+}
+
+.aurora-container div:nth-child(2) {
     height: 80%;
     width: 70%;
     background-color: #800f86;
@@ -303,8 +306,9 @@ body {
     right: -15%;
     animation-duration: 10s;
     animation-delay: 7s;
-  }
-  .aurora-container div:nth-child(3) {
+}
+
+.aurora-container div:nth-child(3) {
     height: 65%;
     width: 80%;
     background-color: #1ba8e9;
@@ -312,17 +316,19 @@ body {
     right: -20%;
     animation-duration: 4s;
     animation-delay: 2.2s;
-  }
-  .aurora-container div:nth-child(4) {
+}
+
+.aurora-container div:nth-child(4) {
     height: 50%;
     width: 75%;
-    background-color: #34ff78;
+    background-color: #3926b3;
     bottom: -5%;
     left: 8%;
     animation-duration: 7s;
     animation-delay: 6s;
-  }
-  .aurora-container div:nth-child(5) {
+}
+
+.aurora-container div:nth-child(5) {
     height: 45%;
     width: 55%;
     background-color: #f7fb1f;
@@ -330,15 +336,16 @@ body {
     left: 0;
     animation-duration: 2.5s;
     animation-delay: 4s;
-  }
-  .aurora-container div:nth-child(6) {
+}
+
+.aurora-container div:nth-child(6) {
     height: 25%;
     width: 55%;
     background-color: #ffb326;
     top: 45%;
     left: -15%;
     animation-duration: 9s;
-  }
+}
 
 .spinner {
     border: 4px solid rgba(255, 255, 255, 0.3);
