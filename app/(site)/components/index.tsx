@@ -6,3 +6,4 @@ export { default as Footer } from './Footer';
 export { default as Input } from './inputs/Input';
 export { default as Banner } from './Banner';
 export { default as Logs } from './Logs';
+export { default as Circle } from './Circle';

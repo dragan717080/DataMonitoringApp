@@ -169,6 +169,176 @@ body {
     display: block;
 }
 
+.annulus {
+    width: 900px;
+    height: 400px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    border: 30px solid #FBB461;
+    border-bottom: 0;
+}
+
+.aurora-container {
+    display: inline-block;
+    position: relative;
+    transition: border 1s ease-out;
+  }
+  
+  .aurora-container img {
+
+    transition: border 0.5s ease-out;
+  }
+  
+  .aurora-container:hover img {
+
+  }
+  
+  .aurora-container::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: border 0.5s ease-out;
+  }
+  
+  .aurora-container:hover::before {
+    border: 2px solid red;
+  }
+
+.marker {
+    width: 3px;
+    height: 34px;
+    background-color: white;
+    position: absolute;
+}
+
+.marker-1 {
+    top: 141px;
+    left: 56px;
+    rotate: 125deg;
+}
+
+.marker-2 {
+    top: -2px;
+    left: 249px;
+    rotate: 146deg;
+}
+
+.marker-3 {
+    top: -2px;
+    left: 585px;
+    rotate: 214deg;
+}
+
+.marker-4 {
+    top: 141px;
+    left: 782px;
+    rotate: 235deg;
+}
+
+.aurora-container {
+    height: 5em;
+    width: 5em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 28px;
+    bottom: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: spin 8s infinite linear;
+  }
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .aurora-container:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    backdrop-filter: blur(2.1em);
+  }
+  .aurora-container:after {
+    position: absolute;
+    content: "";
+    height: 68%;
+    width: 68%;
+    background-color: #ffffff;
+    top: 16%;
+    left: 16%;
+    border-radius: 50%;
+  }
+  .aurora-container div {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    animation: scale-up infinite;
+  }
+  @keyframes scale-up {
+    50% {
+      transform: scale(1.8);
+    }
+  }
+  .aurora-container div:nth-child(1) {
+    height: 90%;
+    width: 100%;
+    background-color: #ff057c;
+    left: -5%;
+    top: -5%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+  }
+  .aurora-container div:nth-child(2) {
+    height: 80%;
+    width: 70%;
+    background-color: #800f86;
+    top: 15%;
+    right: -15%;
+    animation-duration: 10s;
+    animation-delay: 7s;
+  }
+  .aurora-container div:nth-child(3) {
+    height: 65%;
+    width: 80%;
+    background-color: #1ba8e9;
+    bottom: -30%;
+    right: -20%;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+  }
+  .aurora-container div:nth-child(4) {
+    height: 50%;
+    width: 75%;
+    background-color: #34ff78;
+    bottom: -5%;
+    left: 8%;
+    animation-duration: 7s;
+    animation-delay: 6s;
+  }
+  .aurora-container div:nth-child(5) {
+    height: 45%;
+    width: 55%;
+    background-color: #f7fb1f;
+    top: 50%;
+    left: 0;
+    animation-duration: 2.5s;
+    animation-delay: 4s;
+  }
+  .aurora-container div:nth-child(6) {
+    height: 25%;
+    width: 55%;
+    background-color: #ffb326;
+    top: 45%;
+    left: -15%;
+    animation-duration: 9s;
+  }
 
 .spinner {
     border: 4px solid rgba(255, 255, 255, 0.3);
