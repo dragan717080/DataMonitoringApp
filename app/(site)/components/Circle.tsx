@@ -6,14 +6,13 @@ import CircleItem from './CircleItem';
 const Circle: FC = () => {
   return (
     <div className="my-16">
-      <div class="annulus mt-12 mx-auto relative">
+      <div className="annulus mt-12 mx-auto relative">
         {Array.from({ length: 5 }).fill().map((_, i) => (
           <div key={i}>
           <CircleItem
-            top={circleItems[i].top}
-            left={circleItems[i].left}
             imgAlt={circleItems[i].imgAlt}
             imgSrc={circleItems[i].imgSrc}
+            index={i}
             key={i}
           />
           {i !== 4 && <div className={`marker marker-${i + 1}`} />}

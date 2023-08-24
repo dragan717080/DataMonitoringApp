@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import CircleItemProps from '@/app/interfaces/props/CircleItemProps';
+import { CircleItemComponentProps } from '@/app/interfaces/props/CircleItemProps';
 
-const CircleItem: FC<CircleItemProps> = ({ top, left, imgAlt, imgSrc }) => {
+const CircleItem: FC<CircleItemComponentProps> = ({ imgAlt, imgSrc, index }) => {
   return (
-    <div className={`relative top-[${top}] left-[${left}]`}>
+    <div className={`relative circle-item-${index + 1}`}>
       <div className="aurora-container">
         { Array.from({ length: 6 }).fill().map((_, index) => (<div key={index} />)) }
       </div>

@@ -173,15 +173,134 @@
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
-    
+
     1% {
         display: block;
         opacity: 0;
     }
+
     100% {
         display: block;
         opacity: 1;
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
     }
+}
+
+.annulus {
+    width: 900px;
+    height: 400px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    border: 30px solid #FBB461;
+    border-bottom: 0;
+}
+
+.aurora-container {
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    margin: auto;
+    top: 28px;
+    bottom: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.aurora-container:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    backdrop-filter: blur(2.1em);
+}
+
+.aurora-container:after {
+    position: absolute;
+    content: "";
+    height: 68%;
+    width: 68%;
+    background-color: #ffffff;
+    top: 16%;
+    left: 16%;
+    border-radius: 50%;
+}
+
+.aurora-container div {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    animation: scale-up infinite;
+}
+
+@keyframes scale-up {
+    50% {
+        transform: scale(1.8);
+    }
+}
+
+.aurora-container div:nth-child(1) {
+    height: 90%;
+    width: 100%;
+    background-color: #ff057c;
+    left: -5%;
+    top: -5%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.aurora-container div:nth-child(2) {
+    height: 80%;
+    width: 70%;
+    background-color: #800f86;
+    top: 15%;
+    right: -15%;
+    animation-duration: 10s;
+    animation-delay: 7s;
+}
+
+.aurora-container div:nth-child(3) {
+    height: 65%;
+    width: 80%;
+    background-color: #1ba8e9;
+    bottom: -30%;
+    right: -20%;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+}
+
+.aurora-container div:nth-child(4) {
+    height: 50%;
+    width: 75%;
+    background-color: #3926b3;
+    bottom: -5%;
+    left: 8%;
+    animation-duration: 7s;
+    animation-delay: 6s;
+}
+
+.aurora-container div:nth-child(5) {
+    height: 45%;
+    width: 55%;
+    background-color: #f7fb1f;
+    top: 50%;
+    left: 0;
+    animation-duration: 2.5s;
+    animation-delay: 4s;
+}
+
+.aurora-container div:nth-child(6) {
+    height: 25%;
+    width: 55%;
+    background-color: #ffb326;
+    top: 45%;
+    left: -15%;
+    animation-duration: 9s;
 }
