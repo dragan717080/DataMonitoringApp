@@ -18,11 +18,12 @@ const Header: FC = () => {
     <header className='sticky top-0 z-20 row-v bg-gray-600 shadow-md py-5 px-7 md:px-10 2xl:px-20'>
       <div
         onClick={() => router.push('/')}
-        className="relative flex items-center h-16 w-[12rem] pointer -my-3"
+        className="relative flex items-center h-16 w-[20rem] pointer -my-3"
       >
         <Image
-          layout='fill'
-          src='/assets/images/logo-full.png'
+        height='120'
+        width='170'
+          src='/assets/images/logo-full-t.png'
           objectFit='contain'
           objectPosition='left'
           alt={`logo`}

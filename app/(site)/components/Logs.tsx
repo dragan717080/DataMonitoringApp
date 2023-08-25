@@ -37,7 +37,7 @@ const Logs: FC = () => {
             />
           ))}
         </div>
-        <div className=''>
+        <div className='w-[60%]'>
           {/* {(infoComponents[expandedIndex])()} */}
           {(infoComponents[expandedIndex])}
         </div>
