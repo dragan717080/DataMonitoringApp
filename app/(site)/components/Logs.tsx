@@ -26,8 +26,8 @@ const Logs: FC = () => {
         </div>
       </div>
       {/* bg-gradient-to-r from-[#f13ea2] to-[#3926b3] */}
-      <div className='row-v space-x-6'>
-        <div className="w-[40%]">
+      <div className='flex justify-center flex-col md:flex-row space-x-6'>
+        <div className="md:w-[40%]">
           {expandableContents.map((expandable: Expandable, index: number) => (
             <ExpandableDiv
               title={expandable.title}

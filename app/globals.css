@@ -68,10 +68,6 @@ body {
     @apply whitespace-nowrap overflow-hidden text-ellipsis;
 }
 
-.h-fit {
-    height: fit-content;
-}
-
 .max-w-fit {
     max-width: fit-content;
 }
@@ -204,43 +200,4 @@ body {
     top: 141px;
     left: 782px;
     rotate: 235deg;
-}
-
-.circle-item-1 {
-    top: 228px;
-    left: -62px;
-}
-
-.circle-item-2 {
-    top: 46px;
-    left: 91px;
-}
-
-.circle-item-3 {
-    top: -45px;
-    left: 23rem;
-}
-
-.circle-item-4 {
-    top: 46px;
-    left: 653px;
-}
-
-.circle-item-5 {
-    top: 228px;
-    left: 786px;
-}
-
-.circle-item-toolbar {
-    display: none;
-    left: 15%;
-    background-color: white;
-    padding: 8px;
-    border: 1px solid #ccc;
-    transform: translateY(-29px);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.circle-item:hover .circle-item-toolbar {
-    display: block;
 }
