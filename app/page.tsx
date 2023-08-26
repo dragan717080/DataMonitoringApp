@@ -19,7 +19,7 @@ export default function Home() {
         <main className='px-3 md:px-12 min-h-0 md:min-h-[66rem] bg-light'>
           <div className="absolute top-12 left-0">
             <Banner />
-            <div className="mt-10 px-[3%] md:px-[10%]">
+            <div className="mt-10 px-[3%] md:px-32">
               <Logs />
               <Circle />
             </div>

@@ -22,7 +22,7 @@ const Banner: FC = () => {
   }, []);
 
   return (
-    <div className='top-3 py-6 md:py-0 px-[3%] md:px-[5%] h-fit row space-x-12 w-[100vw] md:h-[35rem] relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
+    <div className='top-3 py-6 md:py-0 px-[3%] md:px-32 h-fit row space-x-12 w-[100vw] md:h-[35rem] relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
       <div className='md:w-[40%]'>
         <p className='text-5xl'>
           Empower your insights
