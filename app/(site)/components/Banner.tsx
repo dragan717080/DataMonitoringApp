@@ -22,8 +22,8 @@ const Banner: FC = () => {
   }, []);
 
   return (
-    <div className='top-3 px-32 row space-x-12 w-[100vw] h-[35rem] relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
-      <div className='w-[40%]'>
+    <div className='top-3 py-6 md:py-0 px-[3%] md:px-[5%] h-fit row space-x-12 w-[100vw] md:h-[35rem] relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
+      <div className='md:w-[40%]'>
         <p className='text-5xl'>
           Empower your insights
         </p>
@@ -52,7 +52,7 @@ const Banner: FC = () => {
           Less than 1 minute setup. No credit card needed.
         </div>
       </div>
-      <div className="relative h-[22rem] w-[20%] xl:w-[25%] 2xl:w-[30%]">
+      <div className="relative h-[22rem] w-[20%] xl:w-[25%] 2xl:w-[30%] hidden md:block">
         <Image layout='fill' src='/assets/images/bar-chart-alt.png' alt='Banner Image' />
         <div className='absolute top-1/2 w-full text-center px-10 semibold'>
           <p className='text-sm sm:text-lg text-white'>Feel the impact on your analysis and resolution in a matter of minutes.</p>
@@ -61,7 +61,7 @@ const Banner: FC = () => {
           </button>
         </div>
       </div>
-      <div className="relative h-[22rem] w-[20%] xl:w-[25%] 2xl:w-[30%]">
+      <div className="relative h-[22rem] w-[20%] xl:w-[25%] 2xl:w-[30%] hidden md:block">
         <Image layout='fill' src='/assets/images/chart-1.png' objectFit='cover' alt='Banner Image' />
         <div className='absolute top-1/2 w-full text-center px-10 semibold'>
           <p className='text-sm sm:text-lg text-white'>Eliminate downtime. Fix issues faster. Build resilient systems.</p>

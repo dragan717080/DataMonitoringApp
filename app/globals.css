@@ -68,6 +68,10 @@ body {
     @apply whitespace-nowrap overflow-hidden text-ellipsis;
 }
 
+.h-fit {
+    height: fit-content;
+}
+
 .max-w-fit {
     max-width: fit-content;
 }

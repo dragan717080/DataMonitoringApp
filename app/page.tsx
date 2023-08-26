@@ -16,10 +16,10 @@ export default function Home() {
             <div id="__next"></div>
           </div>
         </section>
-        <main className='px-12 min-h-[45rem] bg-light'>
-          <div className="absolute top-20 left-0">
+        <main className='px-3 md:px-12 min-h-0 md:min-h-[66rem] bg-light'>
+          <div className="absolute top-12 left-0">
             <Banner />
-            <div className="mt-10 px-[8rem]">
+            <div className="mt-10 px-[3%] md:px-[10%]">
               <Logs />
               <Circle />
             </div>

@@ -15,14 +15,14 @@ const Header: FC = () => {
   const router = useRouter();
 
   return (
-    <header className='sticky top-0 z-20 row-v bg-gray-600 shadow-md py-5 px-7 md:px-10 2xl:px-20'>
+    <header className='sticky top-0 z-20 row-v bg-gray-600 shadow-md py-3 px-4 md:px-10 2xl:px-20'>
       <div
         onClick={() => router.push('/')}
-        className="relative flex items-center h-16 w-[20rem] pointer -my-3"
+        className="relative flex items-center h-16 w-[90px] md:w-[20rem] pointer -my-3"
       >
         <Image
-        height='120'
-        width='170'
+          height='102'
+          width='170'
           src='/assets/images/logo-full-t.png'
           objectFit='contain'
           objectPosition='left'
@@ -30,7 +30,7 @@ const Header: FC = () => {
         />
       </div>
       <Navbar />
-      <div className='row-v min-w-[20rem] pt-2.5 pb-2 md: py-2 md:border-2 rounded-full md:shadow-sm'>
+      <div className='row-v min-w-[9rem] md:min-w-[20rem] pt-2.5 pb-2 md:border-2 rounded-full md:shadow-sm'>
         <input
           type="text"
           placeholder='Start your search'
@@ -38,14 +38,17 @@ const Header: FC = () => {
         />
         <MagnifyingGlassIcon className='h-8 mr-2 p-2 bg-red-400 text-white rounded-full pointer hidden md:inline-flex md:mx-2' />
       </div>
-      <div className='flex just row-end items-center space-x-4 text-white ml-auto semibold'>
+      <div className='flex items-center space-x-4 text-white md:ml-auto semibold'>
         {session.status === 'authenticated'
           ? <div className='inline-flex'>
             <div className='t-red'>{session.data!.user!.name}</div>
             <button className='t-cornflowerblue ml-3' onClick={async () => await signOut()} >Logout</button>
           </div>
-          : <div className='pr-16 hover:text-red-400'><a href='auth'>Login</a></div>
+          : <div className='md:pr-16 hover:text-red-400'><a href='auth'>Login</a></div>
         }
+      </div>
+      <div className="block md:hidden text-white text-xl ml-auto">
+        ☰
       </div>
     </header>
   );

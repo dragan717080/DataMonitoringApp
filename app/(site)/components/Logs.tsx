@@ -16,7 +16,7 @@ const Logs: FC = () => {
 
   return (
     <section className='col-v'>
-      <div className="w-[40%]">
+      <div className="md: w-[40%]">
         <div className="text-5xl">
           Logging, Analytics, Testing, Traces and Host Monitoring
         </div>

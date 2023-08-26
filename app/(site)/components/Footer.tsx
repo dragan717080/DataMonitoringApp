@@ -4,7 +4,7 @@ import { StringObject } from '@/app/interfaces/types';
 
 const Footer: FC = () => {
   return (
-    <footer className='bg-gray-600 py-8 px-7 md:px-10'>
+    <footer className='bg-gray-600 py-5 px-7 md:px-10'>
       <div className='col-h space-y-4'>
         <div className="row space-x-4 text-white semibold">
           {['Privacy', 'Sitemap', 'Languages & Frameworks', 'Terms of Use']
