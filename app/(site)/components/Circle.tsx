@@ -1,15 +1,31 @@
-import { FC } from 'react';
+import { FC, useState, useEffect } from 'react';
 import Image from 'next/image';
 import circleItems from '@/config/circleItems';
 import CircleItem from './CircleItem';
 import '../../styles/circle.css';
 
 const Circle: FC = () => {
+    const handleResize = () => {
+      if (window.innerWidth < 1280) {
+        // console.log('Width is under 1280px');
+      }
+    };
+  
+    useEffect(() => {
+      // Initial check when the page loads
+      handleResize();
+  
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
 
   return (
     <div>
       {/* on large screens display circle */}
-      <div className="mt-24 mb-12 hidden md:block">
+      <div className="mt-24 mb-12 hidden lg:block">
         <div className="annulus mt-12 mx-auto relative">
           {Array.from({ length: 5 }).map((_, i) => (
             <div key={i}>
@@ -44,9 +60,9 @@ const Circle: FC = () => {
           </div>
         </div>
       </div>
-      <div className='md:hidden mt-12'>
+      <div className='lg:hidden mt-12'>
         {Array.from({ length: 5 }).map((_, i) => (
-          <div key={i} className="row-v">
+          <div key={i} className="row-v mb-6">
             <CircleItem
               imgAlt={circleItems[i].imgAlt}
               imgSrc={circleItems[i].imgSrc}
@@ -55,8 +71,8 @@ const Circle: FC = () => {
               index={i}
               key={i}
             />
-            <div className=''>
-              { circleItems[i].content }
+            <div className='ml-32 '>
+              { circleItems[i].minifiedContent }
             </div>
           </div>
         ))}

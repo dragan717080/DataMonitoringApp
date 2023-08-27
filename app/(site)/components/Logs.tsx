@@ -16,7 +16,7 @@ const Logs: FC = () => {
 
   return (
     <section className='col-v'>
-      <div className="md:w-[40%]">
+      <div className="lg:w-[40%]">
         <div className="text-5xl">
           Logging, Analytics, Testing, Traces and Host Monitoring
         </div>
@@ -37,7 +37,7 @@ const Logs: FC = () => {
             />
           ))}
         </div>
-        <div className='w-[60%]'>
+        <div className='md:w-[60%]'>
           {/* {(infoComponents[expandedIndex])()} */}
           {(infoComponents[expandedIndex])}
         </div>
