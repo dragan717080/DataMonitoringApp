@@ -62,7 +62,7 @@ const Circle: FC = () => {
       </div>
       <div className='lg:hidden mt-12'>
         {Array.from({ length: 5 }).map((_, i) => (
-          <div key={i} className="row-v mb-6">
+          <div key={i} className="row-v mb-6 md:py-1 min-h-[6rem]">
             <CircleItem
               imgAlt={circleItems[i].imgAlt}
               imgSrc={circleItems[i].imgSrc}
@@ -71,7 +71,7 @@ const Circle: FC = () => {
               index={i}
               key={i}
             />
-            <div className='ml-32 '>
+            <div className='ml-32 my-auto '>
               { circleItems[i].minifiedContent }
             </div>
           </div>
