@@ -12,7 +12,7 @@ const Navbar: FC = () => {
   const toolbarComponents = [ProductsToolbar, SolutionsToolbar, ResourcesToolbar];
 
   return (
-    <nav className="hidden md:flex text-white h-30 px-14">
+    <nav className="hidden md:flex text-white h-30 px-14 md:pl-1 md:pr-2 lg:px-14">
       {toolbarComponents.map((toolbarComponent, index: number) => (
         <NavbarMenuItem ComponentToRender={toolbarComponent} index={index} key={index} />
       ))}

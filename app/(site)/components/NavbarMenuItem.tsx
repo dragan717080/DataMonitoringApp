@@ -33,7 +33,7 @@ const NavbarMenuItem: FC<NavbarMenuItemProps> = ({ ComponentToRender, index }) =
   return (
     <div ref={navbarMenuItemRef} className="relative">
       <div
-        className="parent-container p-4 pointer"
+        className="parent-container p-4 md:px-1.5 xl:px-4 pointer"
         onMouseEnter={() => {
           setIsHovered(true);
           dispatch(setIsNavbarPortalOpen(true));
@@ -43,7 +43,7 @@ const NavbarMenuItem: FC<NavbarMenuItemProps> = ({ ComponentToRender, index }) =
           dispatch(setIsNavbarPortalOpen(false));
         }}
       >
-        <div className="group row-v space-x-1 hover:text-red-400">
+        <div className="group row-v space-x-0.5 hover:text-red-400">
           <h2 className='font-semibold'>{ComponentToRender.displayName.split("Toolbar")[0]}</h2>
           <div className="w-4 h-4 transform transition-transform duration-300 group-hover:rotate-180 group-hover:text-red-400">
             <ArrowIcon />

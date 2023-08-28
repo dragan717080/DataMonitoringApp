@@ -18,7 +18,7 @@ const Header: FC = () => {
     <header className='sticky top-0 z-40 row-v bg-gray-600 shadow-md py-3 px-4 md:px-10 2xl:px-28'>
       <div
         onClick={() => router.push('/')}
-        className="relative flex items-center h-16 w-[90px] md:w-[20rem] pointer -my-3"
+        className="relative flex items-center h-16 w-[90px] md:min-w-[7rem] md:w-[20rem] pointer -my-3"
       >
         <Image
           height='102'
@@ -30,7 +30,7 @@ const Header: FC = () => {
         />
       </div>
       <Navbar />
-      <div className='row-v min-w-[9rem] md:min-w-[20rem] pt-2.5 pb-2 md:border-2 rounded-full md:shadow-sm'>
+      <div className='row-v min-w-[9rem] md:min-w-[14rem] xl:min-w-[17rem] 2xl:min-w-[20rem] pt-2.5 pb-2 md:border-2 rounded-full md:shadow-sm'>
         <input
           type="text"
           placeholder='Start your search'
@@ -44,7 +44,7 @@ const Header: FC = () => {
             <div className='t-red'>{session.data!.user!.name}</div>
             <button className='t-cornflowerblue ml-3' onClick={async () => await signOut()} >Logout</button>
           </div>
-          : <div className='md:pr-16 hover:text-red-400'><a href='auth'>Login</a></div>
+          : <div className='md:pl-3 lg:pl-0 md:pr-16 hover:text-red-400'><a href='auth'>Login</a></div>
         }
       </div>
       <div className="block md:hidden text-white text-xl ml-auto">
