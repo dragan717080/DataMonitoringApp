@@ -1,48 +1,23 @@
-.quotes-container {
-    background-color: #060A14;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .card {
-    height: 240px;
+    height: 220px;
     width: 300px;
-    background-color: #091021;
+    background-color: #4a5568;
     position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
-.fa {
-    color: rgba(255, 255, 255, 0.1);
+.card-title {
+    color: rgba(255, 255, 255, 0.3);
     font-size: 120px;
     position: absolute;
-    top: 10px;
+    top: -10px;
 }
 
 .text {
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
     position: relative;
     font-size: 20px;
-    margin: 145px 12px 0 12px;
-    padding-top: 10px;
+    margin: 122px 12px 0 12px;
     line-height: 30px;
-}
-
-.author {
-    position: absolute;
-    bottom: 50px;
-    right: 15px;
-    font-size: 23px;
-    font-family: 'Rubik', sans-serif;
-    color: rgba(255, 255, 255, 0.05);
-    font-style: italic;
 }
 
 .card:hover {
@@ -50,15 +25,8 @@
     transform: scale(1.1);
 }
 
-.card:hover .fa1 {
+.card:hover .card-title {
     background: linear-gradient(45deg, #F7BC01, #D56741);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
-
-.card:hover .fa2 {
-    background: linear-gradient(45deg, #27d853, #35c9ff);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -66,12 +34,4 @@
 
 .card:hover .text {
     color: #d5d5d5;
-}
-
-.card:hover .a1 {
-    color: #d2902d;
-}
-
-.card:hover .a2 {
-    color: #39c65c;
 }

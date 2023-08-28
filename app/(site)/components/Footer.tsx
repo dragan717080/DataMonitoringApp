@@ -6,7 +6,8 @@ const Footer: FC = () => {
   return (
     <footer className='bg-gray-600 py-5'>
       {/* for small screens */}
-      <div className='px-7 md:hidden'>
+{/*       <div className='px-7 md:hidden'> */}
+      <div className='px-7'>
         <div className='col-h space-y-4'>
           <div className="row space-x-4 text-white semibold">
             {['Privacy', 'Sitemap', 'Languages & Frameworks', 'Terms of Use']
@@ -28,9 +29,9 @@ const Footer: FC = () => {
           </div>
         </div>
       </div>
-      <div className='hidden md:block'>
+{/*       <div className='hidden md:block'>
 
-      </div>
+      </div> */}
     </footer>
   );
 };
