@@ -30,13 +30,13 @@ const Header: FC = () => {
         />
       </div>
       <Navbar />
-      <div className='row-v min-w-[9rem] md:min-w-[14rem] xl:min-w-[17rem] 2xl:min-w-[20rem] pt-2.5 pb-2 md:border-2 rounded-full md:shadow-sm'>
+      <div className='row-v min-w-[40%] md:min-w-[14rem] xl:min-w-[17rem] 2xl:min-w-[20rem] xs:py-1 pt-2.5 pb-2 xs:border-2 rounded-full md:shadow-sm xs:mx-6'>
         <input
           type="text"
           placeholder='Start your search'
           className='ml-1 pl-4 border-none outline-none bg-transparent flex-grow text-sm text-white placeholder-gray-300'
         />
-        <MagnifyingGlassIcon className='h-8 mr-2 p-2 bg-red-400 text-white rounded-full pointer hidden md:inline-flex md:mx-2' />
+        <MagnifyingGlassIcon className='h-8 mr-2 p-2 bg-red-400 text-white rounded-full pointer hidden xs:inline-flex xs:mx-2' />
       </div>
       <div className='flex items-center space-x-4 text-white md:ml-auto semibold'>
         {session.status === 'authenticated'
@@ -44,10 +44,10 @@ const Header: FC = () => {
             <div className='t-red'>{session.data!.user!.name}</div>
             <button className='t-cornflowerblue ml-3' onClick={async () => await signOut()} >Logout</button>
           </div>
-          : <div className='md:pl-3 lg:pl-0 md:pr-16 hover:text-red-400'><a href='auth'>Login</a></div>
+          : <div className='md:pl-3 lg:pl-0 md:pr-16 2xl:pr-4 hover:text-red-400'><a href='auth'>Login</a></div>
         }
       </div>
-      <div className="block md:hidden text-white text-xl ml-auto">
+      <div className="block md:hidden text-white text-xl ml-auto xs:mr-6">
         ☰
       </div>
     </header>

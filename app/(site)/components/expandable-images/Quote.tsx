@@ -13,7 +13,7 @@ const Quote = () => {
   return (
     <div className='m-auto'>
       <blockquote className='quote max-w-fit'>
-        { content }
+        <i className='quote-content'>{ content }</i>
       </blockquote>
       <cite className='ml-2'>{ author }</cite>
     </div>

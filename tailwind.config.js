@@ -20,6 +20,9 @@ module.exports = {
         sandGrey: '#CEC8BD',
         black: '#202124',
       },
+      screens: {
+        xs: '500px'
+      }
     },
   },
   plugins: [

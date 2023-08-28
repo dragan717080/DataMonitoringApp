@@ -37,7 +37,7 @@ const CircleItem: FC<CircleItemComponentProps> = ({ imgAlt, imgSrc, title, conte
         </div>
         {(
           <div className="circle-item-toolbar bg-wheat rounded-lg px-3 w-sm max-w-sm z-50">
-            { isHovered && (
+            { (
               <div>
                 <div className="text-lightOrange pb-2 text-2xl bold">
                   { title }

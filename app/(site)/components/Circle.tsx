@@ -52,7 +52,7 @@ const Circle: FC = () => {
             className='relative z-10 ml-[26%]'
           />
           <div className="relative translate-y-[-260px] h-[369px] w-0.5 ">
-            <div className="absolute bg-[#FBB461] h-[449px] w-0.5 translate-x-[45px] translate-y-[-60px] rotate-90" />
+            <div className="absolute bg-[#FBB461] h-[449px] w-0.5 translate-x-[5%] translate-y-[-60px] rotate-90" />
             <div className="absolute bg-[#FBB461] h-[316px] w-0.5 translate-x-[60px] translate-y-[-93px] rotate-[125deg]" />
             <div className="absolute bg-[#FBB461] h-[232px] w-0.5 translate-x-[209px] translate-y-[-70px]" />
             <div className="absolute bg-[#FBB461] h-[316px] w-0.5 translate-x-[390px] translate-y-[-93px] rotate-[60deg]" />
@@ -60,7 +60,7 @@ const Circle: FC = () => {
           </div>
         </div>
       </div>
-      <div className='lg:hidden mt-12'>
+      <div className='lg:hidden md:mt-20 lg:mt-12'>
         {Array.from({ length: 5 }).map((_, i) => (
           <div key={i} className="row-v mb-6 md:py-1 min-h-[6rem]">
             <CircleItem

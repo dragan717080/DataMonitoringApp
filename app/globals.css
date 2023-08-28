@@ -201,3 +201,7 @@ body {
     left: 782px;
     rotate: 235deg;
 }
+
+.quote-content {
+    font-family: 'Tahoma', sans-serif;
+}

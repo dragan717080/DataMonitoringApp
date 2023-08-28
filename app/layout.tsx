@@ -1,5 +1,6 @@
 import './globals.css';
 import './styles/animations.css';
+import './styles/media.css';
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -9,7 +10,7 @@ import AuthContext from './context/AuthContext';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'App',
+  title: 'AlertBird',
   description: 'App built with Next.js, TypeScript, Tailwind, MongoDB, NextAuth and Prisma',
 }
 
