@@ -8,4 +8,4 @@ export { default as Banner } from './Banner';
 export { default as Logs } from './Logs';
 export { default as Circle } from './Circle';
 export { default as Quotes } from './Quotes';
-export { default as Partners } from './Partners';
+export { default as Testimonials } from './Testimonials';

@@ -16,7 +16,7 @@ const Banner: FC = () => {
         setAnimateOut(false);
       }, 400); // Faster timing for the opacity transition
 
-    }, 3000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, []);
