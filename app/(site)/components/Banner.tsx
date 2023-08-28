@@ -40,8 +40,7 @@ const Banner: FC = () => {
         </div>
         <p className='leading-tight text-2xl my-2'>
           data&apos;s potential with AlertBird: cost-efficient, all-in-one observability platform for peak performance.
-          Proactively discover, predict, and resolve errors in real-time. <br />
-          Find issues and resolve them faster. <br />
+          Proactively predict and resolve errors in real-time. <br />
           Over 10 supported languages and frameworks. <br />
           Start improving your code today.
         </p>
