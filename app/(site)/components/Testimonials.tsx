@@ -7,7 +7,7 @@ const Testimonials: FC = () => {
 
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
-  let intervalId;
+  let intervalId: number;
 
   const handleControlClick = (index: number) => {
     clearInterval(intervalId);
@@ -15,7 +15,7 @@ const Testimonials: FC = () => {
   };
 
   useEffect(() => {
-    intervalId = setInterval(() => {
+    intervalId = window.setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % 4);
     }, 4000);
 
@@ -27,7 +27,7 @@ const Testimonials: FC = () => {
       <div className="blockquote-wrapper">
         <div className="blockquote">
           <h1>
-            { testimonials[currentIndex].quote }
+            { testimonials[currentIndex].content }
           </h1>
           <h4>&mdash;{ testimonials[currentIndex].author }</h4>
         </div>
@@ -36,8 +36,9 @@ const Testimonials: FC = () => {
         {Array.from({ length: 4 }).map((_, index) => (
           <div
             data-index={index + 1}
-            className={`${index === currentIndex ? 'active' : ''}`} key={index}
+            className={`2xl:w-[10rem] ${index === currentIndex ? 'active' : ''}`}
             onClick={() => handleControlClick(index)}
+            key={index}
           >
             <Image
               src={`/assets/images/testimonials/person-img-${index + 1}.png`}

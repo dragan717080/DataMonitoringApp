@@ -34,6 +34,7 @@ const Circle: FC = () => {
                 imgSrc={circleItems[i].imgSrc}
                 title={circleItems[i].title}
                 content={circleItems[i].content}
+                minifiedContent={circleItems[i].minifiedContent}
                 index={i}
                 key={i}
               />
@@ -68,6 +69,7 @@ const Circle: FC = () => {
               imgSrc={circleItems[i].imgSrc}
               title={circleItems[i].title}
               content={circleItems[i].content}
+              minifiedContent={circleItems[i].minifiedContent}
               index={i}
               key={i}
             />

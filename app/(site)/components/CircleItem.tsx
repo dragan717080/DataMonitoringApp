@@ -2,7 +2,7 @@ import { FC, useState } from 'react';
 import Image from 'next/image';
 import { CircleItemComponentProps } from '@/app/interfaces/props/CircleItemProps';
 
-const CircleItem: FC<CircleItemComponentProps> = ({ imgAlt, imgSrc, title, content, index }) => {
+const CircleItem: FC<CircleItemComponentProps> = ({ imgAlt, imgSrc, title, content, minifiedContent, index }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
