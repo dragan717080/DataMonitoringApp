@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { Header, Footer, Banner, Logs, Circle, Quotes } from './(site)/components';
+import { Header, Footer, Banner, Logs, Circle, Quotes, Partners } from './(site)/components';
 import { Provider } from 'react-redux';
 
 import store from '../store';
@@ -16,13 +16,14 @@ export default function Home() {
             <div id="__next"></div>
           </div>
         </section>
-        <main className='px-3 md:px-12 min-h-[171rem] md:min-h-[67rem] 2xl:min-h-[60rem] bg-light'>
+        <main className='px-3 md:px-12 min-h-[171rem] md:min-h-[67rem] 2xl:min-h-[81rem] bg-light'>
           <div className="absolute top-12 left-0">
             <Banner />
             <div className="mt-10 px-[3%] md:px-[72px] xl:px-24 2xl:px-32 max-w-[100vw]">
               <Logs />
               <Circle />
               <Quotes />
+              <Partners />
             </div>
           </div>
         </main>
