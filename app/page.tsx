@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { Header, Footer, Banner, Logs, Circle, Quotes, Testimonials } from './(site)/components';
+import { Header, Footer, Banner, Logs, Circle, Quotes, Testimonials, Cloud } from './(site)/components';
 import { Provider } from 'react-redux';
 
 import store from '../store';
@@ -23,7 +23,7 @@ export default function Home() {
               <Logs />
               <Circle />
               <Quotes />
-              <Testimonials />
+              <Cloud />
             </div>
           </div>
         </main>
