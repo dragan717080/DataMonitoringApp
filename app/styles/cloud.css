@@ -456,9 +456,73 @@
     -o-animation: moveclouds 12s linear infinite;
 }
 
+.x25 {
+    left: -10px;
+    top: -860px;
+
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    transform: scale(0.65);
+    opacity: 0.65;
+    /*opacity proportional to the size*/
+
+    animation: moveclouds 12s linear infinite;
+    -webkit-animation: moveclouds 12s linear infinite;
+    -moz-animation: moveclouds 12s linear infinite;
+    -o-animation: moveclouds 12s linear infinite;
+}
+
+.x26 {
+    left: 410px;
+    top: -820px;
+
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    transform: scale(0.65);
+    opacity: 0.65;
+    /*opacity proportional to the size*/
+
+    animation: moveclouds 12s linear infinite;
+    -webkit-animation: moveclouds 12s linear infinite;
+    -moz-animation: moveclouds 12s linear infinite;
+    -o-animation: moveclouds 12s linear infinite;
+}
+
+.x27 {
+    left: 220px;
+    top: -910px;
+
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    transform: scale(0.65);
+    opacity: 0.65;
+    /*opacity proportional to the size*/
+
+    animation: moveclouds 12s linear infinite;
+    -webkit-animation: moveclouds 12s linear infinite;
+    -moz-animation: moveclouds 12s linear infinite;
+    -o-animation: moveclouds 12s linear infinite;
+}
+
+.x28 {
+    left: -690px;
+    top: -980px;
+
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    transform: scale(0.65);
+    opacity: 0.65;
+    /*opacity proportional to the size*/
+
+    animation: moveclouds 12s linear infinite;
+    -webkit-animation: moveclouds 12s linear infinite;
+    -moz-animation: moveclouds 12s linear infinite;
+    -o-animation: moveclouds 12s linear infinite;
+}
+
 @keyframes moveclouds {
     0% {
-        margin-left: 95%;
+        margin-left: 102%;
     }
 
     100% {
@@ -468,21 +532,21 @@
 
 @-webkit-keyframes moveclouds {
     0% {
-        margin-left: 1000px;
+        margin-left: 102%;
     }
 
     100% {
-        margin-left: -1000px;
+        margin-left: -300px;
     }
 }
 
 @-moz-keyframes moveclouds {
     0% {
-        margin-left: 1000px;
+        margin-left: 102%;
     }
 
     100% {
-        margin-left: -1000px;
+        margin-left: -300px;
     }
 }
 
