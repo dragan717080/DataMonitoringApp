@@ -42,7 +42,7 @@ const Circle: FC = () => {
             </div>
           ))}
         </div>
-        <div className='md:absolute left-[39%] translate-y-[-240px]'>
+        <div className='md:absolute left-[39%] translate-y-[-240px] h-[14rem] logo-img'>
           <Image
             height='141'
             width='250'
@@ -50,14 +50,14 @@ const Circle: FC = () => {
             objectFit='contain'
             objectPosition='left'
             alt={`logo`}
-            className='relative z-10 ml-[26%]'
+            className='relative z-10 h-full'
           />
-          <div className="relative translate-y-[-260px] h-[369px] w-0.5 ">
-            <div className="absolute bg-[#FBB461] h-[449px] w-0.5 translate-x-[5%] translate-y-[-60px] rotate-90" />
-            <div className="absolute bg-[#FBB461] h-[316px] w-0.5 translate-x-[60px] translate-y-[-93px] rotate-[125deg]" />
-            <div className="absolute bg-[#FBB461] h-[232px] w-0.5 translate-x-[209px] translate-y-[-70px]" />
-            <div className="absolute bg-[#FBB461] h-[316px] w-0.5 translate-x-[390px] translate-y-[-93px] rotate-[60deg]" />
-            <div className="absolute bg-[#FBB461] h-[449px] w-0.5 translate-x-[449px] translate-y-[-60px] rotate-90" />
+          <div className="relative translate-y-[-260px] h-[23rem] w-0.5 ">
+            <div className="absolute bg-[#FBB461] h-[28rem] w-0.5 translate-x-[5%] translate-y-[-60px] rotate-90" />
+            <div className="absolute bg-[#FBB461] h-[20rem] w-0.5 translate-x-[1rem] translate-y-[-6rem] rotate-[125deg]" />
+            <div className="absolute bg-[#FBB461] h-[16rem] w-0.5 line-3" />
+            <div className="absolute bg-[#FBB461] h-[20rem] w-0.5 translate-x-[19rem] translate-y-[-6rem] rotate-[54deg]" />
+            <div className="absolute bg-[#FBB461] h-[26rem] w-0.5 translate-x-[24rem] translate-y-[-45px] rotate-90" />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import '../../styles/cloud.css';
 
 const Cloud: FC = () => {
   return (
-    <div className='my-10 w-full absolute left-0 h-[53rem] 2xl:h-[40rem] overflow-hidden'>
+    <div className='mt-10 relative w-full left-0 h-[53rem] 2xl:h-[40rem] overflow-hidden'>
       <div className="col-v absolute h-[80%] w-[90%] 2xl:w-[60%] row top-[10%] left-[5%] 2xl:left-[20%] z-10">
         <div className='bg-gray-600 h-full w-full rounded-xl'>
           {/* for large screens */}
@@ -86,34 +86,9 @@ const Cloud: FC = () => {
         </div>
       </div>
       <div id="clouds" className='h-full'>
-        <div className="cloud x1" />
-        <div className="cloud x2" />
-        <div className="cloud x3" />
-        <div className="cloud x4" />
-        <div className="cloud x5" />
-        <div className="cloud x6" />
-        <div className="cloud x7" />
-        <div className="cloud x8" />
-        <div className="cloud x9" />
-        <div className="cloud x10" />
-        <div className="cloud x11" />
-        <div className="cloud x12" />
-        <div className="cloud x13" />
-        <div className="cloud x14" />
-        <div className="cloud x15" />
-        <div className="cloud x16" />
-        <div className="cloud x17" />
-        <div className="cloud x18" />
-        <div className="cloud x19" />
-        <div className="cloud x20" />
-        <div className="cloud x21" />
-        <div className="cloud x22" />
-        <div className="cloud x23" />
-        <div className="cloud x24" />
-        <div className="cloud x25" />
-        <div className="cloud x26" />
-        <div className="cloud x27" />
-        <div className="cloud x28" />
+        { Array.from({ length: 28 }).map((_, index) => (
+          <div className={`cloud x${index + 1}`} />
+        )) }
       </div>
     </div>
   )

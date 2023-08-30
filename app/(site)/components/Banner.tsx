@@ -22,7 +22,7 @@ const Banner: FC = () => {
   }, []);
 
   return (
-    <div className='top-3 py-6 md:py-0 px-[3%] md:px-[72px] lg:px-20 xl:px-24 2xl:px-32 row md:space-x-4 lg:space-x-6 xl:space-x-8 2xl:space-x-12 w-[100vw] h-fit md:pt-10 md:pb-7 relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
+    <section className='top-3 py-6 md:py-0 px-[3%] md:px-[72px] lg:px-20 xl:px-24 2xl:px-32 row md:space-x-4 lg:space-x-6 xl:space-x-8 2xl:space-x-12 w-[100vw] h-fit md:pt-10 md:pb-7 relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
       <div className='md:w-[50%] 2xl:w-[40%]'>
         <p className='text-5xl'>
           Empower your insights
@@ -69,7 +69,7 @@ const Banner: FC = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

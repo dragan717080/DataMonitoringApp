@@ -8,7 +8,7 @@
 }
 
 .circle-item-2 {
-    top: 46px;
+    top: 2.875rem;
     left: 91px;
 }
 
@@ -27,6 +27,10 @@
     left: 786px;
 }
 
+.line-3 {
+    transform: translate(calc(50% + 145px), -70px);
+}
+
 .circle-item-toolbar {
     display: none;
     left: 15%;
@@ -39,6 +43,10 @@
 
 .circle-item:hover .circle-item-toolbar {
     display: block;
+}
+
+.logo-img {
+    left: calc(50% - 145px);
 }
 
 @media screen and (max-width: 640px) {
