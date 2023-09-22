@@ -15,7 +15,7 @@ const Header: FC = () => {
   const router = useRouter();
 
   return (
-    <header className='sticky top-0 z-40 row-v bg-gray-600 shadow-md py-3 px-4 md:px-10 2xl:px-28'>
+    <header className='sticky top-0 z-40 row-v bg-gray-600 shadow-md py-3 px-4 md:px-10 2xl:px-[22rem]'>
       <div
         onClick={() => router.push('/')}
         className="relative flex items-center h-16 w-[90px] md:min-w-[7rem] md:w-[20rem] pointer -my-3"

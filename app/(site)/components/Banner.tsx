@@ -42,8 +42,8 @@ const Banner: FC = () => {
           data&apos;s potential with AlertBird: cost-efficient, all-in-one observability platform for peak performance.
         </p>
         <p className='leading-tight text-xl my-2'>
-          Proactively predict and resolve errors in real-time. <br />
-          Over 10 supported languages and frameworks. <br />
+          {/*Proactively predict and resolve errors in real-time. <br />
+          Over 10 supported languages and frameworks. <br />*/}
           Start improving your code today.
         </p>
         <button className='text-purple-500 bg-white px-10 py-4 shadow-md rounded-full bold my-3 hover:shadow-xl active:scale-90 transition duration-150'>
@@ -58,16 +58,7 @@ const Banner: FC = () => {
         <div className='absolute top-1/2 w-full text-center px-10 semibold'>
           <p className='text-sm sm:text-lg text-white'>Feel the impact on your analysis and resolution in a matter of minutes.</p>
           <button className='text-purple-500 bg-white px-10 py-4 shadow-md rounded-full bold my-3 hover:shadow-xl active:scale-90 transition duration-150 mt-5'>
-            Check Our Products
-          </button>
-        </div>
-      </div>
-      <div className="relative h-[22rem] w-[20%] xl:w-[25%] 2xl:w-[30%] hidden xl:block">
-        <Image layout='fill' src='/assets/images/chart-1.png' objectFit='cover' alt='Banner Image' />
-        <div className='absolute top-1/2 w-full text-center px-10 semibold'>
-          <p className='text-sm sm:text-lg text-white'>Eliminate downtime. Fix issues faster. Build resilient systems.</p>
-          <button className='text-purple-500 bg-white px-10 py-4 shadow-md rounded-full bold my-3 hover:shadow-xl active:scale-90 transition duration-150 mt-5'>
-            Plans
+            Products
           </button>
         </div>
       </div>

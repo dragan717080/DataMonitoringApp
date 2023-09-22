@@ -10,3 +10,4 @@ export { default as Circle } from './Circle';
 export { default as Quotes } from './Quotes';
 export { default as Testimonials } from './Testimonials';
 export { default as Cloud } from './Cloud';
+export { default as FeaturesListing } from './FeaturesListing';
