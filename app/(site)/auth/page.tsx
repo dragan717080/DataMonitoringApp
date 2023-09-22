@@ -124,7 +124,7 @@ const AuthForm: FC = () => {
               <div className="w-full border-t border-gray-300"></div>
             </div>
             <div className="relative flex row-h text-sm">
-              <span className="bg-white px-2 text-gray-500">
+              <span className="bg-white px-2 text-gray-500 -mt-2.5">
                 Or continue with
               </span>
             </div>

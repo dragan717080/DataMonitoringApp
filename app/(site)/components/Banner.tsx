@@ -16,7 +16,7 @@ const Banner: FC = () => {
         setAnimateOut(false);
       }, 400); // Faster timing for the opacity transition
 
-    }, 7000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -24,7 +24,7 @@ const Banner: FC = () => {
   return (
     <section className='top-3 py-6 md:py-0 px-[3%] md:px-[72px] lg:px-20 xl:px-24 2xl:px-32 row md:space-x-4 lg:space-x-6 xl:space-x-8 2xl:space-x-12 w-[100vw] h-fit md:pt-10 md:pb-7 relative bg-gradient-to-r from-[#f13ea2] to-[#3926b3]'>
       <div className='md:w-[50%] 2xl:w-[40%]'>
-        <p className='text-5xl'>
+        <p className='text-5xl xl:text-6xl bold pb-3 gradient-title'>
           Empower your insights
         </p>
         <div className='relative mt-1 mb-12'>
@@ -38,8 +38,10 @@ const Banner: FC = () => {
             {headerTexts[headerIndex]}
           </h1>
         </div>
-        <p className='leading-tight text-2xl my-2'>
+        <p className='leading-tight text-3xl bold my-2'>
           data&apos;s potential with AlertBird: cost-efficient, all-in-one observability platform for peak performance.
+        </p>
+        <p className='leading-tight text-xl my-2'>
           Proactively predict and resolve errors in real-time. <br />
           Over 10 supported languages and frameworks. <br />
           Start improving your code today.
@@ -47,7 +49,7 @@ const Banner: FC = () => {
         <button className='text-purple-500 bg-white px-10 py-4 shadow-md rounded-full bold my-3 hover:shadow-xl active:scale-90 transition duration-150'>
           Free Trial
         </button>
-        <div className='leading-tight text-2xl my-2'>
+        <div className='leading-tight text-xl my-2'>
           Less than 1 minute setup. No credit card needed.
         </div>
       </div>

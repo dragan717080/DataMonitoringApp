@@ -87,7 +87,7 @@ const Cloud: FC = () => {
       </div>
       <div id="clouds" className='h-full'>
         { Array.from({ length: 28 }).map((_, index) => (
-          <div className={`cloud x${index + 1}`} />
+          <div className={`cloud x${index + 1}`} key={index} />
         )) }
       </div>
     </div>

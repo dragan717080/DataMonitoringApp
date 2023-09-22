@@ -25,7 +25,7 @@ const Circle: FC = () => {
   return (
     <div>
       {/* on large screens display circle */}
-      <div className="mt-24 mb-12 hidden lg:block">
+      <div className="mt-32 pt-4 mb-12 hidden lg:block">
         <div className="annulus mt-12 mx-auto relative">
           {Array.from({ length: 5 }).map((_, i) => (
             <div key={i}>

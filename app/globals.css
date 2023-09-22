@@ -80,6 +80,13 @@ body {
     font-weight: 700;
 }
 
+.gradient-title {
+    background: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #navbar-portal-root {
     display: block;
     padding-top: 100px;
