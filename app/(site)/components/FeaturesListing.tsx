@@ -2,12 +2,12 @@ import React, { FC } from 'react';
 
 const FeaturesListing = () => {
   return (
-    <section className="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12">
+    <section className="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 mt-16 md:mt-20 lg:mt-32 mb-12 md:mb-0 pt-3 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12">
       <div className="w-full flex flex-col lg:flex-row items-center justify-center">
         <div className="light:bg-white-800 light:text-darkgray-100">
-          <div data-aos="fade-up" className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div data-aos="fade-up" className="px-4 py-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-extrabold sm:text-4xl">All the <span className="text-header-gradient">features</span> you need</h2>
+              <h2 className="text-3xl font-extrabold sm:text-4xl">All the <span className="gradient-title-alt">features</span> you need</h2>
               <p className="mt-4 text-lg dark:text-gray-400">Fragmentation of services across multiple third party vendors is what sparked the idea for AlertBird - the home of observability, giving you a wide array of functionalities to use within a single platform.</p>
             </div>
             <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
@@ -116,7 +116,7 @@ const FeaturesListing = () => {
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Easy Billing Management</dt>
-                  <dd className="hidden sm:block mt-2 dark:text-gray-400">Transparent and flexible pricing models based on usage. Choose from various tiers to match your organization's size and requirements, making observability both accessible and cost-effective.</dd>
+                  <dd className="hidden sm:block mt-2 dark:text-gray-400">Transparent and flexible pricing models based on usage. Choose from various tiers to match your organization&apos;s size and requirements, making observability both accessible and cost-effective.</dd>
                 </div>
               </div>
             </dl>

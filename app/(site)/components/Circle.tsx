@@ -25,7 +25,7 @@ const Circle: FC = () => {
   return (
     <div>
       {/* on large screens display circle */}
-      <div className="mt-32 pt-4 mb-12 hidden lg:block">
+      <div className="mt-7 pt-4 mb-12 hidden lg:block">
         <div className="annulus mt-12 mx-auto relative">
           {Array.from({ length: 5 }).map((_, i) => (
             <div key={i}>
@@ -61,7 +61,7 @@ const Circle: FC = () => {
           </div>
         </div>
       </div>
-      <div className='lg:hidden md:mt-20 lg:mt-12'>
+      <div className='lg:hidden mb-10 md:mb-0 md:mt-20 lg:mt-12'>
         {Array.from({ length: 5 }).map((_, i) => (
           <div key={i} className="row-v mb-6 md:py-1 min-h-[6rem]">
             <CircleItem

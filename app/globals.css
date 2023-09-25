@@ -87,6 +87,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.gradient-title-alt {
+    background: linear-gradient(169.4deg, #f13ea2 -6.01%, #8926b3 36.87%, #2f7cf0 78.04%, #d013e2 103.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
 body::-webkit-scrollbar {
     width: 14px;
 }
