@@ -1,4 +1,4 @@
-# Boilerplate code for Next.js using TypeScript, Tailwind CSS, MongoDB, NextAuth.js, and Prisma
+# Data Monitoring App for Next.js using TypeScript, Tailwind CSS, MongoDB, NextAuth.js, and Prisma
 
 ## Technologies Used
 
