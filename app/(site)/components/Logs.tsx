@@ -21,7 +21,7 @@ const Logs: FC = () => {
           Logging, Analytics, Testing, Traces and Host Monitoring
         </div>
         <div className='py-3 text-xl ml-0.5 relative '>
-          At Splunk, we believe that data is the key to success in today&apos;s fast-paced digital landscape.
+          At DataWizard, we believe that data is the key to success in today&apos;s fast-paced digital landscape.
           Our observability platform offers a comprehensive suite of logging-related services that provide deep insights into your system&apos;s performance, ensuring you stay one step ahead of the competition.
         </div>
       </div>

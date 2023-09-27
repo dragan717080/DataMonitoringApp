@@ -23,7 +23,7 @@ const Cloud: FC = () => {
                 />
               </div>
               <div className='cloud-text 2xl:ml-4'>
-                Automate workflows, optimize data processing, and enhance user experiences. Splunk empowers your company to effortlessly streamline operations.
+                Automate workflows, optimize data processing, and enhance user experiences. DataWizard empowers your company to effortlessly streamline operations.
               </div>
             </div>
             <div className='flex flex-col items:center '>

@@ -8,7 +8,7 @@ const FeaturesListing = () => {
           <div data-aos="fade-up" className="px-4 py-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-extrabold sm:text-4xl">All the <span className="gradient-title-alt">features</span> you need</h2>
-              <p className="mt-4 text-lg dark:text-gray-400">Fragmentation of services across multiple third party vendors is what sparked the idea for Splunk - the home of observability, giving you a wide array of functionalities to use within a single platform.</p>
+              <p className="mt-4 text-lg dark:text-gray-400">Fragmentation of services across multiple third party vendors is what sparked the idea for DataWizard - the home of observability, giving you a wide array of functionalities to use within a single platform.</p>
             </div>
             <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
               <div className="flex">
