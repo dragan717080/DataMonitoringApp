@@ -91,7 +91,7 @@ body {
     background: linear-gradient(169.4deg, #f13ea2 -6.01%, #8926b3 36.87%, #2f7cf0 78.04%, #d013e2 103.77%);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
 
 body::-webkit-scrollbar {
@@ -110,6 +110,26 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid transparent;
     background-clip: padding-box;
 }
+
+/* Alternative scrollbar */
+
+/* body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+    width: 10px;
+    height: 80px;
+    border-radius: 26px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+}
+ */
 
 #navbar-portal-root {
     display: block;

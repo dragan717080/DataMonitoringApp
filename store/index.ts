@@ -1,8 +1,6 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
 import { createWrapper } from "next-redux-wrapper";
-import navbarPortalReducer from './slices/navbarPortalSlice';
-import expandableReducer from './slices/expandableSlice';
-import headerBurgerMenuReducer from "./slices/headerBurgerMenuSlice";
+import { navbarPortalReducer, expandableReducer, headerBurgerMenuReducer } from './slices';
 import { NavbarPortalState, ExpandableState, HeaderBurgerMenuState } from "@/app/interfaces/redux";
 
 const store = configureStore({
