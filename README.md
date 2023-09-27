@@ -1,4 +1,4 @@
-# Data Monitoring App for Next.js using TypeScript, Tailwind CSS, MongoDB, NextAuth.js, and Prisma
+# Data Monitoring App
 
 ## Technologies Used
 
@@ -54,3 +54,7 @@ GOOGLE_CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET
 ## Customize the app
 
 Customize the app to suit your needs!
+
+## App hosted on Vercel
+
+https://analytics-automation-charts-dragan717.vercel.app/
