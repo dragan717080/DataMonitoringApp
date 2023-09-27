@@ -10,7 +10,7 @@ import AuthContext from './context/AuthContext';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AlertBird',
+  title: 'Splunk',
   description: 'App built with Next.js, TypeScript, Tailwind, MongoDB, NextAuth and Prisma',
 }
 

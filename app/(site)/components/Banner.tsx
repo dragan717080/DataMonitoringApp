@@ -39,7 +39,7 @@ const Banner: FC = () => {
           </h1>
         </div>
         <p className='leading-tight text-3xl bold my-2'>
-          data&apos;s potential with AlertBird: cost-efficient, all-in-one observability platform for peak performance.
+          data&apos;s potential with Splunk: cost-efficient, all-in-one observability platform for peak performance.
         </p>
         <p className='leading-tight text-xl my-2'>
           {/*Proactively predict and resolve errors in real-time. <br />

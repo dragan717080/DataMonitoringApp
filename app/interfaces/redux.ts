@@ -5,3 +5,7 @@ export interface NavbarPortalState {
 export interface ExpandableState {
   expandedIndex: number;
 }
+
+export interface HeaderBurgerMenuState {
+  isHeaderBurgerMenuOpen: boolean;
+}

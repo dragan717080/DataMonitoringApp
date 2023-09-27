@@ -8,12 +8,12 @@ const FeaturesListing = () => {
           <div data-aos="fade-up" className="px-4 py-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-extrabold sm:text-4xl">All the <span className="gradient-title-alt">features</span> you need</h2>
-              <p className="mt-4 text-lg dark:text-gray-400">Fragmentation of services across multiple third party vendors is what sparked the idea for AlertBird - the home of observability, giving you a wide array of functionalities to use within a single platform.</p>
+              <p className="mt-4 text-lg dark:text-gray-400">Fragmentation of services across multiple third party vendors is what sparked the idea for Splunk - the home of observability, giving you a wide array of functionalities to use within a single platform.</p>
             </div>
             <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Logs Management</dt>
@@ -22,7 +22,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Metrics &amp; Monitoring</dt>
@@ -31,7 +31,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Distributed Tracing</dt>
@@ -40,7 +40,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Application Performance Monitoring (APM)</dt>
@@ -49,7 +49,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Error &amp; Exception Tracking</dt>
@@ -58,7 +58,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Infrastructure Monitoring</dt>
@@ -67,7 +67,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Incident Management</dt>
@@ -76,7 +76,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Alerting</dt>
@@ -85,7 +85,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Test Governance</dt>
@@ -94,7 +94,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Serverless Actions</dt>
@@ -103,7 +103,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Cross-Cloud Load Balancing & Auto-Scaling</dt>
@@ -112,7 +112,7 @@ const FeaturesListing = () => {
               </div>
               <div className="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 dark:text-violet-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                 </svg>
                 <div className="ml-3">
                   <dt className="text-lg font-medium">Easy Billing Management</dt>

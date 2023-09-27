@@ -1,5 +1,5 @@
 'use client';
-import { FC, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useSession } from 'next-auth/react';
 import { MagnifyingGlassIcon, GlobeAltIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/24/outline';
@@ -8,11 +8,19 @@ import { signOut } from 'next-auth/react';
 import { Navbar } from '.';
 import ArrowIcon from './svgs/ArrowIcon';
 import Link from 'next/link';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '@/store';
+import { HeaderMenuToolbar } from './navbar-toolbars';
+import { setIsHeaderBurgerMenuOpen } from '@/store/slices/headerBurgerMenuSlice';
 
 const Header: FC = () => {
 
   const session = useSession();
   const router = useRouter();
+
+  const isHeaderBurgerMenuOpen = useSelector((state: RootState) => state.headerBurgerMenu.isHeaderBurgerMenuOpen);
+
+  const dispatch = useDispatch();
 
   return (
     <header className='sticky top-0 z-40 row-v bg-gray-600 shadow-md py-3 px-4 md:px-10 xl:px-[15rem] 2xl:px-[22rem]'>
@@ -23,7 +31,7 @@ const Header: FC = () => {
         <Image
           height='102'
           width='170'
-          src='/assets/images/logo-full-t.png'
+          src='/assets/images/logo-full-t-alt.png'
           objectFit='contain'
           objectPosition='left'
           alt={`logo`}
@@ -47,8 +55,12 @@ const Header: FC = () => {
           : <div className='md:pl-3 lg:pl-0 md:pr-16 2xl:pr-4 hover:text-red-400'><a href='auth'>Login</a></div>
         }
       </div>
-      <div className="block md:hidden text-white text-xl ml-auto xs:mr-6">
-        ☰
+      <div
+        id="burger-menu-btn"
+        className="block md:hidden text-white text-xl ml-auto xs:mr-6 relative"
+        onClick={() => dispatch(setIsHeaderBurgerMenuOpen(!isHeaderBurgerMenuOpen))}>
+        <span>{ !isHeaderBurgerMenuOpen ? '☰' : 'X' }</span>
+        <HeaderMenuToolbar isOpen={isHeaderBurgerMenuOpen} />
       </div>
     </header>
   );
