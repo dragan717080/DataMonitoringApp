@@ -256,3 +256,7 @@ body::-webkit-scrollbar-thumb {
 .quote-content {
     font-family: 'Tahoma', sans-serif;
 }
+
+.bg-blue-gradient {
+    background: linear-gradient(136.91deg, #468ef9 -12.5%, #0c66ee 107.5%);
+}

@@ -3,7 +3,7 @@ import '../../styles/quotes.css';
 
 const Quotes: FC = () => {
   return (
-    <div className='grid grid-flow-row 2xl:grid-flow-col 2xl:grid-cols-3 mx-auto gap-y-10 2xl:gap-x-7 2xl:w-[62%]'>
+    <div className='grid grid-flow-row xl:grid-flow-col 2xl:grid-cols-3 mx-auto gap-y-10 2xl:gap-x-7 2xl:w-[62%]'>
       <div className="overflow-hidden mx-auto">
         <div className="card row rounded-xl">
           <i className="card-title" aria-hidden="true">96%</i>
